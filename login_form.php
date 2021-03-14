@@ -44,8 +44,6 @@
 				 <div id="button_form" class="form-signin" >
 			 New to CHMSC OLMS -->
 			
-				<!-- <h3 class="form-signin-heading"><i class="icon-edit"></i> Sign up</h3> -->
-				<!-- <button data-placement="top" title="Sign In as Student" id="signin_student" onclick="window.location='signup_student.php'" id="btn_student" name="login" class="btn btn-info" type="submit">I`m a Student</button> -->
 				
 			</div> 
 			-->
@@ -53,7 +51,10 @@
 														$(document).ready(function(){
 															$('#signin_student').tooltip('show'); $('#signin_student').tooltip('hide');
 														});
-														</script>	
+														</script>
+
+				
+				<!-- <button data-placement="top" title="Sign In as Student" id="signin_student" onclick="window.location='signup_student.php'" id="btn_student" name="login" class="btn btn-info" type="submit">I`m a Student</button> -->
 														<script type="text/javascript">
 														$(document).ready(function(){
 															$('#signin_teacher').tooltip('show'); $('#signin_teacher').tooltip('hide');

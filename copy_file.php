@@ -15,7 +15,17 @@ for($i=0; $i < $N; $i++)
 	$floc = $row['floc'];
 	$fdesc = $row['fdesc'];
 	$uploaded_by = $row['uploaded_by'];
-
+	
+	
+	$date_start = $_POST['date_start'];
+	$date_end = $_POST['date_end'];
+	$title = $_POST['title'];
+	
+	$query = mysqli_query($conn,"insert into event (date_end,date_start,event_title,teacher_class_id) values('$date_end','$date_start','$title','$get_id')")or die(mysqli_error());
+	?>
+	<script>
+	window.location = "class_calendar.php<?php echo '?id='.$get_id; ?>";
+	</script>
 	
 	
 	mysqli_query($conn,"insert into files (floc,fdatein,fdesc,class_id,fname,uploaded_by) value('$floc',NOW(),'$fdesc','$class_id','$fname','$uploaded_by')")or die(mysqli_error());

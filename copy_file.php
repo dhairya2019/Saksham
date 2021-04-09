@@ -15,6 +15,7 @@ for($i=0; $i < $N; $i++)
 	$floc = $row['floc'];
 	$fdesc = $row['fdesc'];
 	$uploaded_by = $row['uploaded_by'];
+		
 	
 	
 	$date_start = $_POST['date_start'];

@@ -1,8 +1,8 @@
 <center>
 		<footer>
 		
-		<p style="color:blue;font-size:20px;">Copyright@ UPES Students</p>
-			<!-- <p>Programmed by: UPES students</p> -->
+		<p>Copyright@UPES-2021</p>
+			<!-- <p>Programmed by: John Kevin Lorayna BSIS 4-A</p> -->
 		</footer>
 </center>
 

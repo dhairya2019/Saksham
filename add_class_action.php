@@ -16,6 +16,7 @@ $teacher_class = mysqli_query($conn,"select * from teacher_class order by teache
 $teacher_row = mysqli_fetch_array($teacher_class);
 $teacher_id = $teacher_row['teacher_class_id'];
 
+  
 
 $insert_query = mysqli_query($conn,"select * from student where class_id = '$class_id'")or die(mysqli_error());
 while($row = mysqli_fetch_array($insert_query)){

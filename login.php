@@ -19,8 +19,6 @@
 		$_SESSION['id']=$row_teahcer['teacher_id'];
 		echo 'true';
 		
-		 }else{ 
-				echo 'false';
-		}	
+		 }	
 				
 		?>
